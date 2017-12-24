@@ -1,0 +1,21 @@
+.left
+{
+  height: 1450px;
+  width: 200px;
+  background-color: blue;
+}
+.right
+{
+  height: 250px;
+  width: 150px;
+  background-color: red;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+#container
+{
+  position: relative;
+  margin-top: 200px;
+  margin-left: 200px;
+}

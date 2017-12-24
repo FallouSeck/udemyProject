@@ -1,0 +1,321 @@
+/*GENERAL*/
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body
+{
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+}
+h1, h2, h3, h4
+{
+  color: #444;
+}
+h1
+{
+  font-family: "Crete Round", serif;
+  font-size: 45px;
+}
+h2
+{
+  font-size: 55px;
+}
+h3
+{
+  font-size: 30px;
+}
+h4
+{
+  font-size: 24px;
+}
+ul
+{
+  list-style: none;
+}
+p
+{
+  font-weight: normal;
+  line-height: 20px;
+  color: #777;
+}
+a
+{
+  text-decoration: none;
+  color: #444;
+}
+.wrapper
+{
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.orange
+{
+  color: #ff7a00
+}
+small
+{
+  font-size: 13px;
+  font-style: italic;
+}
+.clear
+{
+  clear: both;
+}
+
+
+/*HEADER*/
+
+
+header
+{
+  height: 120px;
+}
+header .wrapper
+{
+  padding-top: 32px;
+}
+header h1
+{
+  float: left;
+}
+header nav
+{
+  float: right;
+}
+header li
+{
+  padding-top: 20px;
+  display: inline-block;
+  margin-right: 20px;
+}
+header a
+{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+/*MAIN-IMAGE*/
+
+
+#main-image
+{
+  height: 580px;
+  background: url("images/main.jpg") center;
+}
+#main-image h2
+{
+  padding-top: 150px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+}
+.button-1
+{
+  width: 120px;
+  height: 50px;
+  background: #ff7a00;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 3px;
+  line-height: 50px;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  margin: 60px auto;
+}
+.button-1:hover
+{
+  background: #02b8dd;
+  color: #fff;
+}
+
+
+/*STEPS*/
+
+
+#steps
+{
+  height: 300px;
+}
+#steps ul
+{
+  margin-top: 80px
+}
+#steps ul li
+{
+  width: 300px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+#steps ul h4
+{
+  text-transform: uppercase;
+  padding-top: 140px
+}
+#steps ul li p
+{
+  padding-top: 20px;
+}
+.steps-1
+{
+  background: url("images/steps-icon-1.png")top center;
+  background-repeat: no-repeat;
+}
+.steps-2
+{
+  background: url("images/steps-icon-2.png")top center;
+  background-repeat: no-repeat;
+}.steps-3
+{
+  background: url("images/steps-icon-3.png")top center;
+  background-repeat: no-repeat;
+}
+
+
+/*POSSIBILITIES*/
+
+
+#possibilities
+{
+  margin-top: 70px;
+  background: #efefef;
+  padding: 60px 0;
+}
+#possibilities article
+{
+  height: 270px;
+  width: 460px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  background-repeat: no-repeat;
+}
+#possibilities article:first-child
+{
+  margin-right: 15px;
+}
+.cover
+{
+  background: rgba(255, 255, 255, 0.95);
+  height: 100%;
+  width: 190px;
+  border-radius: 10px 0 0 10px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.cover h4
+{
+  text-transform: uppercase;
+  padding: 20px 0 ;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.cover p
+{
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+.button-2
+{
+  width: 120px;
+  height: 30px;
+  background: #ff7a00;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 3px;
+  line-height: 30px;
+  font-weight: normal;
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+}
+.button-2:hover
+{
+  background: #02b8dd;
+  color: #fff;
+}
+
+
+/*CONTACT*/
+
+
+#contact
+{
+  text-align: center;
+}
+#contact h3
+{
+  margin: 0 auto 0 auto;
+  width: 400px;
+  padding: 60px 0 20px 0;
+  border-bottom: 1px solid #02b8dd;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+#contact p
+{
+  margin-bottom: 40px;
+}
+#contact form
+{
+  height: 50px;
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+#contact label
+{
+  font-size: 20px;
+  color: #777;
+}
+#contact input[type="text"]
+{
+  font-size: 20px;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  padding: 10px;
+  margin-right: 10px;
+}
+.button-3
+{
+  border-radius: 3px;
+  border-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #02b8dd;
+  padding: 11px;
+}
+.button-3:hover
+{
+  color: #fff;
+  background-color: #444;
+}
+
+
+/*FOOTER*/
+
+footer
+{
+  background-color: #444;
+  height: 260px;
+  text-align: center;
+}
+footer h1
+{
+  color: #fff;
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+footer p
+{
+  font-weight: bold;
+}
