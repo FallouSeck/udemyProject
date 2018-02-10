@@ -1,6 +1,18 @@
-var x = 5;
-var y = 12;
+function Dog(name, color, age)
+{
+    this.name = name;
+    this.color = color;
+    this.age = age;
+    this.aboie = function()
+    {
+        console.log(this.name + ": Wouaf wouaf");
+    }
+}
 
-var myBoolean = (x>3 || y<10);
 
-console.log(myBoolean);
+var petitCaniche = new Dog ("Django", "Green", 18);
+// console.log(petitCaniche);
+
+// var grosChienMechant = new Dog ("Brutus", "Black & Yellow", 8);
+// console.log(grosChienMechant);
+petitCaniche.aboie();
